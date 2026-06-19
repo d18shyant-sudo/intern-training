@@ -1,2 +1,0 @@
-# intern-training
-NAME: DUSHYANT
