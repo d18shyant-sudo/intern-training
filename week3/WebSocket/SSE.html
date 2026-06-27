@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>SSE Demo</h2>
+<ul id="messages"></ul>
+<script>
+const eventsource = new EventSource(
+    "http://localhost:8000/events"
+);
+eventsource.onmessage = function(event) {
+    let li = document.createElement("li");
+    li.textContent = event.data;
+    document.getElementById("messages").appendChild(li);
+};
+</script>
+</body>
+</html>
