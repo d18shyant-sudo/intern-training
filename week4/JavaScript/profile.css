@@ -1,0 +1,48 @@
+header{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-color:#333;
+    color: white;
+}
+img{   
+ margin-left :450px;
+ margin-bottom: 30px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.detail{
+    display:flex;
+    gap: 20px;
+    margin-bottom:20px;
+}
+footer{
+    display: flex;
+    background-color: #333;
+    color: white;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.toggle{
+    width:80px;
+    height: 40px;
+    margin-left:700px;
+    margin-bottom:20px;
+}
+.dark-theme{
+    background-color: black;
+    color: white;
+}
+.list{
+    width:80px;
+    height:40px;
+    margin-left:700px;
+    margin-bottom:20px;
+}
+.show{
+    display: flex;
+    justify-content: center;
+}
