@@ -1,13 +1,16 @@
 import axios from "axios";
+import type { FormData } from "../types/user";
 
-const API_URL: string = "http://localhost:8000/api/v1/postdetail";
+const API_URL = "http://localhost:8000/api/v1";
 
-type UserData = {
-  name: string;
-  email: string;
-  dob: string;
+export const createUser = async (data: FormData) => {
+  return await axios.post(`${API_URL}/postdetail`, data);
 };
 
-export const createUser = async (data: UserData) => {
-  return await axios.post(API_URL, data);
+export const getUsers = async () => {
+  const response = await axios.get(
+    `${API_URL}/getdetail`
+  );
+
+  return response.data;
 };
