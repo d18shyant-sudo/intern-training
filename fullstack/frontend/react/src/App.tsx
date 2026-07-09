@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Toaster } from "react-hot-toast";
 
-import Home from "./components/Home";
-import AddUserModal from "./components/AddUserModal";
-import UserListModal from "./components/UserListModal";
+import Home from "./components/Form/Home";
+import AddUserModal from "./components/Form/AddUserModal";
+import UserListModal from "./components/Form/UserListModal";
 
 export default function App() {
 

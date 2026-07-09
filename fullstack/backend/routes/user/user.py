@@ -3,6 +3,7 @@ from sqlalchemy.orm import Session
 from engine.database import get_db
 from schema.user import Create_detail, detail_response
 from service.user import post_detail, get_detail
+from Authentication.token import create_access_token
 router = APIRouter(
     prefix="/api/v1",
     tags=["User"]
@@ -19,4 +20,8 @@ def gets_detail(
     db: Session = Depends(get_db)
 ):
     response = get_detail(db)
+    return response
+@router.post("/login")
+def login(username:str,password:str):
+    response = create_access_token(username,password)
     return response
