@@ -5,6 +5,7 @@ class Create_detail(BaseModel):
     name:str
     dob:date
     email:EmailStr
+    password:str
 class detail_response(BaseModel):
     name:str
     DOB:date
