@@ -1,39 +1,30 @@
 from sqlalchemy.orm import Session
-from schema.Auth import sign_in
-from model.Auth import Login
+from schema.auth import auth
+from model.auth import auth
 from fastapi import Depends
 from engine.database import get_db
 import logging
 from fastapi.responses import JSONResponse
-from database.password.encrypt import encrypt
-logging.basicConfig(level=logging.info)
-def Store_login(credential:sign_in,db:Session = Depends(get_db)):
+def Store_login(credential:auth.sign_in,db:Session = Depends(get_db)):
     try:
-        credential_in_db = db.query(Login).filter(Login.password==encrypt(credential.password)).first()
-        logging.info("db is reached 1")
+        credential_in_db = db.query(auth.Login).filter(auth.Login.password==(credential.password)).first()
         if credential_in_db:
-            return JSONResponse(status_code=400,content="Account already exists Try with new credentials")
-        new_credential = Login(username=credential.username,password=encrypt(credential.password))
-        logging.info("db is reached 2")
+            return []
+        new_credential = auth.Login(username=credential.username,password=(credential.password))
         db.add(new_credential)
-        logging.info("db is reached 3")
         db.commit()
-        logging.info("db is reached 4")
         db.refresh(new_credential)
-        logging.info("db is reached 5")
-        return JSONResponse(status_code=200,content="Account added successfully")
+        return new_credential
     except Exception as e:
-        logging.info("db is not reached")
-        return JSONResponse(status_code=404,content="Invalid Attempt Try Again")
-def Sign_in(credential:sign_in,db:Session = Depends(get_db)):
+        return str(e)
+def Sign_in(credential:auth.sign_in,db:Session = Depends(get_db)):
     try:
-        password_in_db = db.query(Login).filter(Login.password==encrypt(credential.password)).first()
-        username_in_db = db.query(Login).filter(Login.username==credential.username).first()
+        password_in_db = db.query(auth.Login).filter(auth.Login.password==(credential.password)).first()
+        username_in_db = db.query(auth.Login).filter(auth.Login.username==credential.username).first()
         if password_in_db and username_in_db:
-             return JSONResponse(status_code=200,content="Account added successfully")
-        if not password_in_db and username_in_db:
-            return JSONResponse(status_code=400,content="Invalid Credentials")
+             return credential
         else:
-            return JSONResponse(status_code=404,content="No such account try to sign up")
+            return []
     except Exception as e:
-        return JSONResponse(status_code=500,content={"Error":str(e)})
+        return str(e)
+        

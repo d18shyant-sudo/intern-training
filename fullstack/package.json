@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "react-hot-toast": "^2.6.0"
+  },
+  "dependencies": {
+    "tailwindcss": "^4.3.2"
   }
 }

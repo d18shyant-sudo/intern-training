@@ -1,7 +1,7 @@
 import { useState } from "react";
 import toast from "react-hot-toast";
-import { createUser } from "../service/Forms.service";
-import type { FormData } from "../types/user";
+import { createUser } from "../../service/Forms.service";
+import type { FormData } from "../../types/user";
 
 type Props = {
   onClose: () => void;

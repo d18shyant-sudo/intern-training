@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { getUsers } from "../service/Forms.service";
-import type { User } from "../types/user";
+import { getUsers } from "../../service/Forms.service";
+import type { User } from "../../types/user";
 
 type Props = {
   onClose: () => void;
