@@ -1,5 +1,5 @@
 import axios from "axios";
-import type { FormData } from "../types/user";
+import type { FormData,login } from "../types/user";
 
 const API_URL = "http://localhost:8000/api/v1";
 
@@ -13,4 +13,23 @@ export const getUsers = async () => {
   );
 
   return response.data;
+};
+export const deleteUser = async (email: string) => {
+  return await axios.delete(
+    `${API_URL}/deletedetail/${email}`
+  );
+};
+export const updateUser = async (email:string,data:FormData) => {
+    return await axios.put(
+        `${API_URL}/updatedetail/${email}`,
+        data
+    );
+};
+export const signin = async (data:login) => {
+  const response =  await axios.post(`${API_URL}/login`, data);
+  return response;
+};
+export const signup = async (data:login) => {
+  const response =  await axios.post(`${API_URL}/sign_up`, data);
+  return response;
 };

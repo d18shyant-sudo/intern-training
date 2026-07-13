@@ -1,29 +1,57 @@
-import {
-  createRootRoute,
-  createRoute,
-  createRouter,
-} from "@tanstack/react-router";
+import { createRootRoute, createRoute, createRouter, Outlet } from '@tanstack/react-router'
+import App from './App'
+import Form from './components/form/form';
+import Add_User from './components/form/adduser';
+import ViewUsers from './components/form/viewuser';
+import Edit_User from './components/form/Edit_User';
+import { Toaster } from 'react-hot-toast';
+import  Signup  from './components/login/signup';
 
-import App from "./App";
-import Home from "./components/Home/Home_Page";
+const rootRoute = createRootRoute({
+  component: ()=>  (<>
+      <Toaster position="top-right" />
+      <Outlet />
+    </>),
+});
 
-const rootRoute = createRootRoute();
-
-const appRoute = createRoute({
+const indexRoute = createRoute({
   getParentRoute: () => rootRoute,
-  path: "/",
+  path: '/',
   component: App,
 });
 
-const homeRoute = createRoute({
+const  formRoute = createRoute({
   getParentRoute: () => rootRoute,
-  path: "/home",
-  component: Home,
+  path: '/form',
+  component: Form,
+})
+const  useraddRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: '/add_user',
+  component: Add_User,
+})
+const  userviewRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: '/view_user',
+  component: ViewUsers,
+})
+const editUserRoute = createRoute({
+  getParentRoute:()=>rootRoute,
+  path:'/edit_user/$email',
+  component:Edit_User
 });
-
+const signupRoute = createRoute({
+  getParentRoute:()=>rootRoute,
+  path:'/sign_up',
+  component:Signup
+});
 const routeTree = rootRoute.addChildren([
-  appRoute,
-  homeRoute,
+  indexRoute,
+  formRoute,
+  useraddRoute,
+  userviewRoute,
+  editUserRoute,
+  signupRoute
 ]);
 
 export const router = createRouter({

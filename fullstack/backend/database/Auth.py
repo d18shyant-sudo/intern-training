@@ -1,30 +1,34 @@
 from sqlalchemy.orm import Session
-from schema.auth import auth
-from model.auth import auth
+from schema.auth.auth import sign_in,sign_up
+from model.auth.auth import Login
 from fastapi import Depends
 from engine.database import get_db
 import logging
 from fastapi.responses import JSONResponse
-def Store_login(credential:auth.sign_in,db:Session = Depends(get_db)):
+def Store_login(credential: sign_up, db: Session = Depends(get_db)):
     try:
-        credential_in_db = db.query(auth.Login).filter(auth.Login.password==(credential.password)).first()
+        credential_in_db = db.query(Login).filter(
+            Login.username == credential.username
+        ).first()
         if credential_in_db:
-            return []
-        new_credential = auth.Login(username=credential.username,password=(credential.password))
+            return False
+        new_credential = Login(
+            username=credential.username,
+            password=credential.password
+        )
         db.add(new_credential)
         db.commit()
         db.refresh(new_credential)
         return new_credential
     except Exception as e:
         return str(e)
-def Sign_in(credential:auth.sign_in,db:Session = Depends(get_db)):
+def Sign_in(credential:sign_in,db:Session = Depends(get_db)):
     try:
-        password_in_db = db.query(auth.Login).filter(auth.Login.password==(credential.password)).first()
-        username_in_db = db.query(auth.Login).filter(auth.Login.username==credential.username).first()
-        if password_in_db and username_in_db:
+        username_in_db = db.query(Login).filter(Login.username==credential.username).first()
+        if username_in_db:
              return credential
         else:
-            return []
+            return False
     except Exception as e:
         return str(e)
         

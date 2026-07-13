@@ -5,7 +5,13 @@ export type FormData = {
 };
 
 export type User = {
+  id:number
   name: string;
   email: string;
   DOB: string;
 };
+
+export type login={
+  username:string;
+  password:string;
+}
