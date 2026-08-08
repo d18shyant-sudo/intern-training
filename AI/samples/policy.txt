@@ -1,0 +1,18 @@
+Expense Policy
+
+Meal allowance:
+Employees can claim up to ₹2500 per day.
+
+Hotel allowance:
+Employees can claim up to ₹5000 per night.
+
+Taxi allowance:
+Employees can claim up to ₹500 per day.
+
+Food expenses require the original receipt.
+
+Travel claims must be submitted within 30 days.
+
+Claims above ₹10000 require manager approval.
+
+Only business-related expenses are reimbursable.
