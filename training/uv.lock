@@ -1,0 +1,19 @@
+version = 1
+revision = 3
+requires-python = ">=3.14"
+
+[manifest]
+members = [
+    "prerequisites",
+    "training",
+]
+
+[[package]]
+name = "prerequisites"
+version = "0.1.0"
+source = { editable = "src/training/Prerequisites" }
+
+[[package]]
+name = "training"
+version = "0.1.0"
+source = { editable = "." }

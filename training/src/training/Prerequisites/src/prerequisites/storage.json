@@ -1,0 +1,38 @@
+[
+  {
+    "id": "7bf67e5a-22ae-4826-9aef-bae6140d1ab7",
+    "role": "user",
+    "content": "message good morning to this number 8923411567",
+    "token": 15
+  },
+  {
+    "id": "2d61c94c-3fe4-4b65-9811-69055bd72fe1",
+    "role": "assistant",
+    "content": "Ok Fine!I Just done the task feel free to ask other work",
+    "token": "ABC"
+  },  
+  {
+    "id": "17b1fdf7-e699-49dd-811b-4ca0aa513269",
+    "role": "user",
+    "content": "2+5",
+    "token": 3
+  },
+  {
+    "id": "ae7fe671-0901-457e-961e-e431be0fb0bb",
+    "role": "assistant",
+    "content": "7, what is the next thing you need?",
+    "token": 9
+  },
+  {
+    "id": "7b42c9dd-bfde-4535-adc9-affcd2925b8c",
+    "role": "user",
+    "content": "what is the difference between the integer and float?",
+    "token": 8
+  },
+  {
+    "id": "d32b6735-2f52-466b-8de4-aa524a869662",
+    "role": "assistant",
+    "content": "Thats a most confusing thing. Integers are used to stor all natural number from negative to positive.float is used to store the all floating values.",
+    "token": 26
+  }
+]
