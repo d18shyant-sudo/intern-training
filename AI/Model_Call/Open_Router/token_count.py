@@ -3,6 +3,8 @@ import json
 import httpx
 from dotenv import load_dotenv
 from transformers import AutoTokenizer 
+import logging
+logging.basicConfig(level=logging.WARNING)
 load_dotenv()
 key = os.getenv("OPEN_ROUTER_KEY")
 model_name = "nvidia/nemotron-nano-9b-v2:free"
@@ -30,7 +32,7 @@ response = httpx.post(
 
 data = response.json()
 actual_prompt_token = data["usage"]["prompt_tokens"]
-print("Actual prompt token:",actual_prompt_token)
+logging.info("Actual prompt token:",actual_prompt_token)
 
 tokenizer = AutoTokenizer.from_pretrained(
     model_name_local,
@@ -43,6 +45,6 @@ tokens = tokenizer.apply_chat_template(
     add_generation_prompt=True
 )
 estimated_prompt_token = len(tokens["input_ids"])
-print("Estimated prompt token:",estimated_prompt_token)
-print(f"Cost of prompt token(in inr):{actual_prompt_token*token_cost*95}₹")
-print(f"Cost of prompt token(in usd):{estimated_prompt_token*token_cost}$")
+logging.info("Estimated prompt token:",estimated_prompt_token)
+logging.info(f"Cost of prompt token(in inr):{actual_prompt_token*token_cost*95}₹")
+logging.info(f"Cost of prompt token(in usd):{estimated_prompt_token*token_cost}$")
