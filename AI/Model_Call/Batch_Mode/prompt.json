@@ -1,0 +1,6 @@
+[
+    {"id": 1, "prompt": "What is AI?"},
+    {"id": 2, "prompt": "What is RAG?"},
+    {"id": 3, "prompt": "What is HTTPX?"},
+    {"id": 4, "prompt": "What is an LLM?"}
+]
