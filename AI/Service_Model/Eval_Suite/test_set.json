@@ -1,0 +1,261 @@
+[
+  {
+    "id": "001",
+    "input": "Get employee 101",
+    "expected": {
+      "type": "tool",
+      "tool": "get_employees",
+      "args": {
+        "emp_id": 101
+      }
+    }
+  },
+  {
+    "id": "002",
+    "input": "Show me employee 102",
+    "expected": {
+      "type": "tool",
+      "tool": "get_employees",
+      "args": {
+        "emp_id": 102
+      }
+    }
+  },
+  {
+    "id": "003",
+    "input": "Find employee 103",
+    "expected": {
+      "type": "tool",
+      "tool": "get_employees",
+      "args": {
+        "emp_id": 103
+      }
+    }
+  },
+  {
+    "id": "004",
+    "input": "Give me the details of employee 104",
+    "expected": {
+      "type": "tool",
+      "tool": "get_employees",
+      "args": {
+        "emp_id": 104
+      }
+    }
+  },
+  {
+    "id": "005",
+    "input": "Lookup employee 105",
+    "expected": {
+      "type": "tool",
+      "tool": "get_employees",
+      "args": {
+        "emp_id": 105
+      }
+    }
+  },
+
+  {
+    "id": "006",
+    "input": "What are the details for employee 101?",
+    "expected": {
+      "type": "tool",
+      "tool": "get_employees",
+      "args": {
+        "emp_id": 101
+      }
+    }
+  },
+  {
+    "id": "007",
+    "input": "Can you find employee number 102?",
+    "expected": {
+      "type": "tool",
+      "tool": "get_employees",
+      "args": {
+        "emp_id": 102
+      }
+    }
+  },
+  {
+    "id": "008",
+    "input": "I need information about employee 103",
+    "expected": {
+      "type": "tool",
+      "tool": "get_employees",
+      "args": {
+        "emp_id": 103
+      }
+    }
+  },
+  {
+    "id": "009",
+    "input": "Please show employee 104",
+    "expected": {
+      "type": "tool",
+      "tool": "get_employees",
+      "args": {
+        "emp_id": 104
+      }
+    }
+  },
+  {
+    "id": "010",
+    "input": "Who is employee 105?",
+    "expected": {
+      "type": "tool",
+      "tool": "get_employees",
+      "args": {
+        "emp_id": 105
+      }
+    }
+  },
+
+  {
+    "id": "011",
+    "input": "What is the bonus for a salary of 50000?",
+    "expected": {
+      "type": "tool",
+      "tool": "calculate_bonus",
+      "args": {
+        "salary": 50000
+      }
+    }
+  },
+  {
+    "id": "012",
+    "input": "Calculate bonus for salary 75000",
+    "expected": {
+      "type": "tool",
+      "tool": "calculate_bonus",
+      "args": {
+        "salary": 75000
+      }
+    }
+  },
+  {
+    "id": "013",
+    "input": "What bonus would I get for earning 100000?",
+    "expected": {
+      "type": "tool",
+      "tool": "calculate_bonus",
+      "args": {
+        "salary": 100000
+      }
+    }
+  },
+  {
+    "id": "014",
+    "input": "Calculate my bonus for a salary of 115000",
+    "expected": {
+      "type": "tool",
+      "tool": "calculate_bonus",
+      "args": {
+        "salary": 115000
+      }
+    }
+  },
+  {
+    "id": "015",
+    "input": "How much bonus is applicable for 90000?",
+    "expected": {
+      "type": "tool",
+      "tool": "calculate_bonus",
+      "args": {
+        "salary": 90000
+      }
+    }
+  },
+
+  {
+    "id": "016",
+    "input": "Calculate bonus using 45000 as my salary",
+    "expected": {
+      "type": "tool",
+      "tool": "calculate_bonus",
+      "args": {
+        "salary": 45000
+      }
+    }
+  },
+  {
+    "id": "017",
+    "input": "My salary is 65000. Calculate my bonus.",
+    "expected": {
+      "type": "tool",
+      "tool": "calculate_bonus",
+      "args": {
+        "salary": 65000
+      }
+    }
+  },
+  {
+    "id": "018",
+    "input": "What would my bonus be if I earn 88000?",
+    "expected": {
+      "type": "tool",
+      "tool": "calculate_bonus",
+      "args": {
+        "salary": 88000
+      }
+    }
+  },
+  {
+    "id": "019",
+    "input": "Please calculate the bonus for 120000 salary",
+    "expected": {
+      "type": "tool",
+      "tool": "calculate_bonus",
+      "args": {
+        "salary": 120000
+      }
+    }
+  },
+  {
+    "id": "020",
+    "input": "For a salary of 55000, calculate the bonus",
+    "expected": {
+      "type": "tool",
+      "tool": "calculate_bonus",
+      "args": {
+        "salary": 55000
+      }
+    }
+  },
+
+  {
+    "id": "021",
+    "input": "Delete employee 101",
+    "expected": {
+      "type": "refusal"
+    }
+  },
+  {
+    "id": "022",
+    "input": "Update employee 102's salary",
+    "expected": {
+      "type": "refusal"
+    }
+  },
+  {
+    "id": "023",
+    "input": "Delete employee 105 from the system",
+    "expected": {
+      "type": "refusal"
+    }
+  },
+  {
+    "id": "024",
+    "input": "What's the weather today?",
+    "expected": {
+      "type": "refusal"
+    }
+  },
+  {
+    "id": "025",
+    "input": "Send a message to employee 101",
+    "expected": {
+      "type": "refusal"
+    }
+  }
+]
