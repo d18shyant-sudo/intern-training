@@ -1,0 +1,200 @@
+Employees can claim taxi expenses up to ₹500 per day.
+Travel claims must be submitted within 30 days.
+Hotel expenses are limited to ₹5000 per night.
+Employees can claim meal expenses up to ₹2500 per day.
+Original receipts are required for food expenses.
+Business class flights are permitted for international trips exceeding 8 hours.
+Personal expenses cannot be included in corporate reimbursement claims.
+Client entertainment dinners require prior manager approval.
+The maximum limit for client gifts is ₹2000 per year.
+Mileage is reimbursed at ₹15 per kilometer for official car usage.
+All international travel requires prior sign-off from the department head.
+Team building lunches are capped at ₹1000 per employee.
+Late night transport expenses are covered after 9 PM.
+Flight bookings must be made through the approved corporate portal.
+Alcoholic beverages are strictly non-reimbursable under company policy.
+Internet charges during hotel stays are reimbursed up to ₹500 per day.
+Laundry services can be claimed for trips longer than 5 days.
+Cash advances must be settled within 14 days of trip completion.
+Parking fees must be supported by valid digital or paper receipts.
+Toll charges incurred during business travel are fully reimbursable.
+Office stationery purchases above ₹1000 require procurement authorization.
+Training course registration fees must include a completion certificate.
+Visas and passport renewal fees are covered for expatriate staff.
+Unused non-refundable tickets must be credited to the corporate account.
+Damaged or lost luggage claims require an official airline report.
+Medical check-ups mandated by the company are fully covered.
+Personal vehicle insurance must be valid when claiming mileage.
+Emergency travel bookings bypass standard advance purchase rules.
+Splitting bills to avoid approval thresholds is strictly prohibited.
+Monthly mobile phone bills are reimbursed up to ₹1500.
+Courier service charges for legal documents require tracking details.
+Conference registration fees should include the event agenda copy.
+Relocation expenses are subject to a maximum cap of ₹50000.
+Duplicate claim submissions will trigger an internal audit flag.
+Daily subsistence allowances are credited directly to the payroll account.
+Rental vehicles should be economic or compact models by default.
+High-speed data roaming packages require director approval.
+Exceeding the monthly travel budget requires executive vice president clearance.
+Physical receipts must be retained for at least three fiscal years.
+Business lounge access is restricted to senior management personnel.
+Project codes must be correctly tagged to every expense line item.
+Tipping is capped at a maximum of 10 percent of the food bill.
+Petty cash withdrawals cannot exceed ₹2000 per single transaction.
+Flight seat selection charges are covered for long-haul routes only.
+Conference hotel bookings must utilize group discount rates.
+Daily breakfast costs are included within the hotel room per diem.
+Foreign currency conversions use the official monthly corporate exchange rate.
+Office pantry supplies are managed exclusively by facility operations.
+Traffic violation tickets and parking fines are the employee's responsibility.
+Contractor travel expenses must adhere to master service agreement limits.
+Submitting fraudulent expense claims results in immediate termination.
+Corporate credit card payments are due on the 15th of every month.
+Temporary office rentals require prior review by the legal team.
+Professional headshot photographs for the company directory cost up to ₹1500.
+Bookkeeping software automatically flags discrepancies in submitted receipts.
+External consultant invoices must match contractual milestone deliverables.
+Safety equipment purchases must meet occupational health regulations.
+Memberships for private clubs are excluded from standard corporate reimbursements.
+Software license purchases require IT security clearance before expensing.
+Catering orders for board meetings must use approved local vendors.
+Lost receipt affidavits must be signed by the direct reporting manager.
+Hybrid vehicle rentals receive a 15 percent sustainability travel bonus.
+Overnight train journeys require a sleeper class or higher booking.
+Client gift values cannot exceed ₹5000 during festive seasons.
+Annual medical insurance premiums are handled through HR benefits.
+Out-of-pocket expenses are cleared during the bi-weekly payroll cycle.
+Custom training materials purchased online cannot be claimed as business tools.
+Unsubmitted draft expense reports are automatically archived after 60 days.
+Mileage logs must record exact starting and ending destination points.
+Travel safety guidelines must be reviewed before entering high-risk zones.
+Airport transfer shuttle services are preferred over private luxury cabs.
+Business meeting refreshments are capped at ₹300 per attendee.
+All cross-border transactions undergo strict anti-corruption compliance audits.
+Hardware component replacements need a technical diagnostic failure report.
+Department heads can approve emergency expenses up to ₹10000.
+Temporary housing allowances are provided for the first 30 days of relocation.
+Value-added tax components on international bills are processed for recovery.
+Personal extension days on business trips must be funded independently.
+Corporate card cash withdrawal features are disabled by default.
+Monthly department spend reports are published on the internal analytics dashboard.
+Express postal shipping fees require proof of urgent client delivery needs.
+Training workshops held abroad require proof of mandatory attendance.
+Hotel mini-bar consumption charges are classified as personal expenses.
+Public transit smart cards can be recharged for official daily commutes.
+Dual-purpose tool purchases must be prorated between personal and business use.
+Third-party insurance claims for rental cars require immediate incident reporting.
+Quarterly leadership summit travel allocations are pre-approved by finance.
+Monthly subscription renewal fees for analytics tools require budget allocation.
+Printing costs for marketing brochures must use authorized corporate print shops.
+Medical quarantine stay expenses are fully covered under special provisions.
+All remote work ergonomic equipment claims are capped at ₹10000.
+Flight cancellation protection fees are integrated into standard bookings.
+Regional sales project codes must be updated before final report submission.
+Team celebratory events require an attendance sheet with employee signatures.
+Emergency dental care expenses abroad are covered by travel insurance.
+Conference poster printing charges are reimbursable under project funds.
+Annual compliance training completion is mandatory for expense system access.
+Corporate social responsibility event costs must be approved by the foundation lead.
+Visitor parking passes are managed directly by corporate security reception.
+High-value transaction verifications are conducted by internal finance auditors.
+Employees can claim local conveyance up to ₹400 per day.
+Training travel claims must be submitted within 15 days.
+Standard hotel expenses are limited to ₹4000 per night.
+Employees can claim breakfast allowances up to ₹300 per day.
+Digital e-receipts are accepted for online software subscription expenses.
+Business class train tickets are permitted for journeys over 6 hours.
+Family travel costs cannot be mixed with corporate trip reimbursements.
+Client networking dinners require prior approval from the regional director.
+The maximum limit for souvenir client gifts is ₹1500 per item.
+Mileage is reimbursed at ₹12 per kilometer for official bike usage.
+All overseas project travel requires prior sign-off from the operations head.
+Departmental team lunches are capped at ₹800 per person.
+Late shift transport expenses are covered after 8 PM safely.
+Flight changes must be processed through the approved agency helpline.
+Gym membership fees are non-reimbursable under standard wellness policies.
+Wi-Fi charges during airport delays are reimbursed up to ₹200.
+Laundry services can be claimed for trips lasting more than 7 days.
+Cash advances must be settled within 10 days of office return.
+Valet parking fees require a specific management exception note.
+State toll tax charges incurred during fieldwork are fully reimbursable.
+Office hardware purchases above ₹5000 require IT procurement sign-off.
+Online certification fees must include a valid tax invoice document.
+Visa translation fees are covered under corporate relocation clauses.
+Unused flight credits must be applied to the next business journey.
+Damaged equipment claims require an asset verification incident report.
+Annual health check-ups provided by partner clinics are fully covered.
+Personal vehicle pollution certificates must be valid for mileage claims.
+Emergency medical evacuations bypass normal pre-approval constraints.
+Splitting transaction invoices to bypass policy limits leads to disciplinary actions.
+Broadband internet connection bills are reimbursed up to ₹1200 monthly.
+Courier shipping receipts must list the exact contents sent.
+Seminar registration fees should include a copy of the official brochure.
+Relocation packing service expenses are subject to a maximum cap of ₹25000.
+Duplicate invoice numbers will automatically lock the expense report.
+Daily subsistence per diems are credited directly to salary accounts.
+Rental vehicles should be intermediate models for team travels.
+International roaming data packs require vice president approval.
+Exceeding the annual entertainment budget requires chief financial officer clearance.
+Digital receipt copies must match the exact transaction ledger amounts.
+Airport lounge access is restricted to international business itineraries.
+Cost center codes must be validated prior to expense form submission.
+Client entertainment tips are capped at 15 percent of the total cost.
+Petty cash receipts must be itemized with individual item descriptions.
+Flight seat upgrades are covered only for medical health reasons.
+Off-site workshop hotel bookings must use partnered hotel chains.
+Daily dinner costs are capped within the overall evening per diem limit.
+Cross-border currency conversion fees are covered by company treasury.
+Pantry grocery supplies are managed through the central admin budget.
+Speeding tickets and traffic fines are strictly paid by the driver.
+Independent contractor expenses must follow strict purchase order guidelines.
+Submitting altered bills results in an immediate suspension of privileges.
+Corporate card statements are reconciled automatically on the last day.
+Co-working space rentals require prior review by the facility manager.
+Professional ID badge replacement costs ₹200 per occurrence.
+Automated payroll tools credit expense payouts on the 28th.
+External supplier invoices must match approved purchase order terms.
+Personal protective gear purchases must satisfy workplace safety rules.
+Golf club memberships are completely excluded from corporate expense policies.
+External software plug-ins require IT department architecture review.
+Quarterly town hall catering orders must use pre-approved food suppliers.
+Missing receipt declarations require counter-signature from the finance controller.
+Electric vehicle rentals receive preferred parking reimbursement perks.
+Overnight bus journeys require an AC sleeper class ticket copy.
+Festive client greeting card expenses cannot exceed ₹1000 per client.
+Critical illness medical insurance claims are processed through HR.
+Out-of-pocket reimbursements are processed every Friday afternoon.
+Self-paced learning course fees cannot be charged to project budgets.
+Draft expense reports are automatically deleted after 90 days of inactivity.
+Mileage reimbursement requests must include google map distance proofs.
+Travel security briefings are mandatory for visits to high-risk areas.
+Airport metro train tickets are preferred over taxi bookings.
+Client meeting snacks are capped at ₹200 per participant.
+All cross-border payments comply with regional tax authority regulations.
+Replacement laptop charger purchases need an IT approval code.
+Project managers can approve operational travel expenses up to ₹15000.
+Temporary housing utilities are covered for the first 15 days.
+Local tax components on hotel bills are processed for business refund.
+Personal holiday extensions on business trips require annual leave approval.
+Corporate card credit lines cannot be used for cash line advances.
+Monthly travel expenditure analytics are reviewed by senior leadership.
+Urgent document dispatch fees require tracking confirmation attachments.
+External training seminar travel requires proof of skill acquisition goals.
+Hotel room service charges are limited to ₹800 per day.
+Metro transit passes can be recharged for official field visit commutes.
+Mixed-use hardware invoices must be evaluated by the asset management team.
+Rental car insurance deductibles are covered during official accidents.
+Quarterly sales conference travel budgets require senior manager clearance.
+Monthly cloud server subscription fees require IT budget sign-off.
+Promotional banner printing costs must use certified vendor partners.
+Medical emergency hospitalization claims abroad require immediate HR notification.
+Home office furniture claims are capped at ₹7500 per employee.
+Flight cancellation insurance is included in all corporate travel packages.
+Cost center reallocation requests must be submitted before month-end closing.
+Departmental team building events require a 70 percent minimum attendance rate.
+Emergency dental treatment expenses abroad need insurance pre-authorization.
+Conference poster board rental charges are reimbursable under research grants.
+Annual data privacy training is mandatory for expense portal administrators.
+Corporate social responsibility donations require direct board resolution proof.
+Client parking validation tickets must be attached to meeting expense reports.
+High-value purchase audits are conducted randomly by external financial reviewers.
