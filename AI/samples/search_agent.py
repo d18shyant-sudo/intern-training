@@ -44,5 +44,7 @@ while True:
             }
         ]
     )
+    print(type(response))
+    print(response)
     request = json.loads(response["message"]["content"])
     print(request)

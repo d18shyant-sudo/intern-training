@@ -47,4 +47,4 @@ tokens = tokenizer.apply_chat_template(
 estimated_prompt_token = len(tokens["input_ids"])
 logging.info("Estimated prompt token:",estimated_prompt_token)
 logging.info(f"Cost of prompt token(in inr):{actual_prompt_token*token_cost*95}₹")
-logging.info(f"Cost of prompt token(in usd):{estimated_prompt_token*token_cost}$")
+logging.info(f"Cost of prompt token(in usd):{actual_prompt_token*token_cost}$")
